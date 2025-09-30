@@ -18,6 +18,20 @@
     border-width: 0px;
 }
 
+.border-bottom{
+    border-bottom: 3px solid #F7F8F9;
+}
+
+.mb-table{
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+
+.pad-right{
+    padding-right: 5px;
+}
+
 
 /* Header */
 
@@ -29,6 +43,7 @@
 
 header{
     padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #fff;
     
 }
@@ -47,7 +62,7 @@ body{
 
 .container{
     background-color: #fff;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -66,4 +81,18 @@ body{
     border: 1px solid #D4D8DC;
     width: 95px;
     height: 35px;
+}
+
+/* Table */
+
+li{
+    list-style-type: none;
+    font-weight: 1000;
+    color: #444851;
+
+}
+
+.name-task{
+    font-weight: 400;
+
 }
