@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 /* Utility */
-.mt-10 {
-    margin-top: 20px;
+.mt-15 {
+    margin-top: 15px;
 }
 
 .name-task {
@@ -33,7 +33,7 @@
 .mb-table {
     padding-top: 20px;
     padding-left: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .pad-right {
@@ -41,7 +41,7 @@
 }
 
 .margin-right {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .lb-blu{
