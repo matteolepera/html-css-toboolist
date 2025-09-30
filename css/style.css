@@ -4,6 +4,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+
+/* Utility */
+.mt-10{
+    margin-top: 10px;
+}
+
+.bt{
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+/* Header */
+
 #logo{
     height: 50px;
     vertical-align: middle;
@@ -12,12 +29,41 @@
 
 header{
     padding-top: 10px;
-
+    background-color: #fff;
+    
 }
 
 .title-header{
-    font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-size: 35px;
     vertical-align: middle;
+}
+
+/* Layout */
+body{
+    background-color: #F7F8F9;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.bt-add-tsk{
+    background-color: #48ADF1;
+    margin: 20px 10px 15px 30px;
+    width: 80px;
+    height: 35px;
+    
+}
+
+.bt-add-sec{
+    background: none;
+    color: #D4D8DC;
+    border: 1px solid #D4D8DC;
+    width: 95px;
+    height: 35px;
 }
