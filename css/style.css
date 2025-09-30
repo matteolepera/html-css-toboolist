@@ -12,7 +12,7 @@
 }
 
 .bt{
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     border-radius: 5px;
     border-width: 0px;
@@ -54,6 +54,10 @@ header{
     vertical-align: middle;
 }
 
+.lb-blu{
+    
+}
+
 /* Layout */
 body{
     background-color: #F7F8F9;
@@ -66,6 +70,8 @@ body{
     margin: 0 auto;
     border-radius: 5px;
 }
+
+/* Main */
 
 .bt-add-tsk{
     background-color: #48ADF1;
@@ -95,4 +101,16 @@ li{
 .name-task{
     font-weight: 400;
 
+}
+
+.label{
+    display: inline-block;
+    background-color: #48ADF1;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    border-radius: 16px;
+    padding: 7px
+    
 }
