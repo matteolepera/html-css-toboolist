@@ -13,6 +13,7 @@
 
 .name-task {
     font-weight: 400;
+    font-size: 15px;
 
 }
 
@@ -137,6 +138,7 @@ body {
 li {
     list-style-type: none;
     font-weight: 1000;
+    font-size: 20px;
     color: #444851;
 
 }
@@ -147,11 +149,8 @@ li {
     display: inline-block;
     height: 20px;
     width: 20px;
-    line-height: 20px;
     border-radius: 50%;
     text-align: center;
-
-
 }
 
 .label {
