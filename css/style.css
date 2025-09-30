@@ -11,6 +11,11 @@
     margin-top: 10px;
 }
 
+.name-task {
+    font-weight: 400;
+
+}
+
 .mt-30{
     margin-top: 30px;
 }
@@ -55,6 +60,14 @@
 
 .lb-orange{
     background-color: #F29E33;
+}
+
+.lb-pink{
+   background-color: #D863A1;
+}
+
+.lb-yellow{
+    background-color: #B0C927;
 }
 
 .crc-green {
@@ -119,7 +132,7 @@ body {
     height: 35px;
 }
 
-/* Table */
+/* List */
 
 li {
     list-style-type: none;
@@ -128,10 +141,7 @@ li {
 
 }
 
-.name-task {
-    font-weight: 400;
 
-}
 
 .circle {
     display: inline-block;
