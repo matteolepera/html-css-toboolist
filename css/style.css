@@ -4,11 +4,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-
 /* Utility */
 .mt-10 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .name-task {
@@ -35,7 +33,7 @@
 .mb-table {
     padding-top: 20px;
     padding-left: 50px;
-
+    padding-bottom: 40px;
 }
 
 .pad-right {
