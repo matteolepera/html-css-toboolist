@@ -1,5 +1,5 @@
 /* Reset */
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,68 +7,94 @@
 
 
 /* Utility */
-.mt-10{
+.mt-10 {
     margin-top: 10px;
 }
 
-.bt{
+.mt-30{
+    margin-top: 30px;
+}
+
+.bt {
     font-weight: 600;
     color: #fff;
     border-radius: 5px;
     border-width: 0px;
 }
 
-.border-bottom{
+.border-bottom {
     border-bottom: 3px solid #F7F8F9;
 }
 
-.mb-table{
+.mb-table {
     padding-top: 20px;
     padding-left: 50px;
 
 }
 
-.pad-right{
+.pad-right {
     padding-right: 5px;
 }
 
-.margin-right{
+.margin-right {
     margin-right: 5px;
 }
 
+.lb-blu{
+    background-color: #48ADF1;
+
+}
+
+.lb-purple{
+    background-color: #9C72E4;
+}
+
+.lb-green{
+    background-color: #63C0A9;
+}
+
+.lb-orange{
+    background-color: #F29E33;
+}
+
+.crc-green {
+    border: 2px solid #72C6B2;
+    color: #72C6B2;
+}
+
+.crc-red {
+    border: 2px solid #EE746D;
+    color: #EE746D;
+}
 
 /* Header */
 
-#logo{
+#logo {
     height: 50px;
     vertical-align: middle;
     padding-left: 10px;
 }
 
-header{
+header {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fff;
-    
+
 }
 
-.title-header{
+.title-header {
     font-weight: 800;
     font-size: 35px;
     vertical-align: middle;
 }
 
-.lb-blu{
-    
-}
-
 /* Layout */
-body{
+body {
     background-color: #F7F8F9;
     font-family: "Roboto", sans-serif;
 }
 
-.container{
+.container {
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
@@ -77,15 +103,15 @@ body{
 
 /* Main */
 
-.bt-add-tsk{
+.bt-add-tsk {
     background-color: #48ADF1;
     margin: 20px 10px 15px 30px;
     width: 80px;
     height: 35px;
-    
+
 }
 
-.bt-add-sec{
+.bt-add-sec {
     background: none;
     color: #D4D8DC;
     border: 1px solid #D4D8DC;
@@ -95,39 +121,36 @@ body{
 
 /* Table */
 
-li{
+li {
     list-style-type: none;
     font-weight: 1000;
     color: #444851;
 
 }
 
-.name-task{
+.name-task {
     font-weight: 400;
 
 }
 
-.circle{
+.circle {
     display: inline-block;
-    border: 2px solid #72C6B2;
-    color: #72C6B2;
     height: 20px;
     width: 20px;
     line-height: 20px;
     border-radius: 50%;
     text-align: center;
-    
-    
+
+
 }
 
-.label{
+.label {
     display: inline-block;
-    background-color: #48ADF1;
     margin-left: 5px;
     color: #fff;
     font-weight: 600;
     font-size: 10px;
     border-radius: 16px;
     padding: 7px;
-    
+
 }
